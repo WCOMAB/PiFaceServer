@@ -1,0 +1,10 @@
+<#
+    Namespace       = @"ProjectInclude"         ;
+    BlackList       = new []
+    {
+        BlackListFragment ("Program.cs"),
+        BlackListFragment ("AssemblyInfo.cs"),
+    };
+    ProjectFileName = @"..\PiFaceClient\PiFaceClient.csproj";
+#>
+<#@ include file="$(SolutionDir)\packages\T4Include.1.1.4\T4\IncludeProject.ttinclude" #>

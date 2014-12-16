@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiFaceServer", "PiFaceServer\PiFaceServer.csproj", "{0168BD81-E9C4-4E17-8F79-48FF4F8074E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiFaceClient", "PiFaceClient\PiFaceClient.csproj", "{262AE489-9D6B-4D58-AC56-69E51DAC3821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiFaceClientTest", "PiFaceClientTest\PiFaceClientTest.csproj", "{5EBED686-1EEE-4384-B4F7-C7EA1F05C9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiFaceAPI", "PiFaceAPI\PiFaceAPI.csproj", "{88378E8C-F9F9-4E6E-8969-437340184548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0168BD81-E9C4-4E17-8F79-48FF4F8074E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0168BD81-E9C4-4E17-8F79-48FF4F8074E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0168BD81-E9C4-4E17-8F79-48FF4F8074E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0168BD81-E9C4-4E17-8F79-48FF4F8074E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262AE489-9D6B-4D58-AC56-69E51DAC3821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262AE489-9D6B-4D58-AC56-69E51DAC3821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262AE489-9D6B-4D58-AC56-69E51DAC3821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262AE489-9D6B-4D58-AC56-69E51DAC3821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBED686-1EEE-4384-B4F7-C7EA1F05C9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBED686-1EEE-4384-B4F7-C7EA1F05C9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBED686-1EEE-4384-B4F7-C7EA1F05C9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBED686-1EEE-4384-B4F7-C7EA1F05C9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88378E8C-F9F9-4E6E-8969-437340184548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88378E8C-F9F9-4E6E-8969-437340184548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88378E8C-F9F9-4E6E-8969-437340184548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88378E8C-F9F9-4E6E-8969-437340184548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

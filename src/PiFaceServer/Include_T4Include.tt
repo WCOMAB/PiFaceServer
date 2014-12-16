@@ -1,0 +1,26 @@
+<#
+    // Whenever this file is saved the files in the Includes section is downloaded
+    // from GitHub (you can download from other websources by changing rootpath)
+    RootPath    = @"https://raw.github.com/";
+    Namespace   = "PiFaceServer"         ;   // The downloaded content is wrapped in this namespace
+    Includes    = new []
+        {
+            // Include the basic extension from T4Include
+            Include (@"WCOMAB/T4Include/master/Extensions/BasicExtensions.cs"),
+            Include (@"WCOMAB/T4Include/master/Common/SubString.cs"),
+            Include (@"WCOMAB/T4Include/master/Common/Array.cs"),
+            Include (@"WCOMAB/T4Include/master/Extensions/ParseExtensions.cs"),
+            Include (@"WCOMAB/T4Include/master/Extensions/EnumParseExtensions.cs"),
+            Include (@"WCOMAB/T4Include/master/Reflection/StaticReflection.cs"),
+            Include (@"WCOMAB/T4Include/master/Reflection/ClassDescriptor.cs"),
+            Include (@"WCOMAB/T4Include/master/Common/Log.cs"),
+            Include (@"WCOMAB/T4Include/master/Common/ConsoleLog.cs"),
+
+            //HRON Includes
+            Include (@"WCOMAB/T4Include/master/Hron/HRONSerializer.cs"),
+            Include (@"WCOMAB/T4Include/master/Hron/HRONObjectSerializer.cs"),
+            Include (@"WCOMAB/T4Include/master/Hron/HRONDynamicObjectSerializer.cs"),
+        };
+#>
+
+<#@ include file="$(SolutionDir)\packages\T4Include.1.1.4\T4\IncludeWebFile.ttinclude" #>
