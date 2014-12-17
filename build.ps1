@@ -11,7 +11,7 @@ $CAKE_EXE = Join-Path $TOOLS_DIR "Cake/Cake.exe"
 
 # Try download NuGet.exe if not exists
 if (!(Test-Path $NUGET_EXE)) {
-	Invoke-WebRequest -Uri https://github.com/cake-build/bootstrapper/raw/master/tools/nuget.exe -OutFile $NUGET_EXE
+	Invoke-WebRequest -Uri http://nuget.org/nuget.exe -OutFile $NUGET_EXE
 }
 
 # Make sure NuGet exists where we expect it.
