@@ -51,7 +51,7 @@ Task("Restore")
     foreach(var solution in solutions)
     {
         Information("Restoring {0}", solution);
-        NuGetRestore(solution);
+        NuGetRestore(solution, new NuGetRestoreSettings {ToolPath = EnvironmentVariable("NUGET_EXE")});
     }
 });
 
